@@ -26,6 +26,13 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    
+    {
+      src: '@/plugins/my-plugin',
+      //mode: 'client' // client or server, e se remover o 'mode:' iŕa rodar em ambos
+    },
+    '@/plugins/dayjs',
+    '@/plugins/vtooltip'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
