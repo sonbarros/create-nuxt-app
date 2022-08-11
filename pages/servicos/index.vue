@@ -1,7 +1,7 @@
 <template>
   <div>
             
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quasi consequatur pariatur velit deserunt sapiente sed cum voluptatum nihil dolorum optio consectetur facere vero quo, ratione doloribus esse, accusantium quae!</p>
+    <p>Index Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quasi consequatur pariatur velit deserunt sapiente sed cum voluptatum nihil dolorum optio consectetur facere vero quo, ratione doloribus esse, accusantium quae!</p>
     
   </div>
 </template>
