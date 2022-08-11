@@ -7,11 +7,34 @@
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quasi consequatur pariatur velit deserunt sapiente sed cum voluptatum nihil dolorum optio consectetur facere vero quo, ratione doloribus esse, accusantium quae!</p>
     </div>
     
+    <div>
+      <p v-for="(item, index) in products" :key="index">{{item.id}}</p>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  
+  
+  data() {
+    return {
+
+    };
+  },
+  
+  async asyncData( {$axios} ) {
+    //console.log($axios)
+    const products = await $axios.$get('https://jsonplaceholder.typicode.com/posts');
+    return {
+      products
+    }
+  },
+  
+  mounted() {
+    //console.log(axios)
+  }
+  
 
 }
 </script>
