@@ -55,5 +55,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  publicRuntimeConfig: {
+    youtube_api_key: process.env.YOUTUBE_API_KEY
+  },
+  privateRuntimeConfig: {
+    facebook_api_key: process.env.FACEBOOK_API_KEY
   }
 }
